@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+service Stock {
+    rpc SendStock (ProductRequest) returns (ProductReply){}
+}
+
+message ProductRequest {
+    int32 id = 1;
+    string nombre = 2;
+    int32 cantidadSolicitada = 3;
+}
+message ProductReply {
+    int32 id = 1;
+    string nombre = 2;
+    int32 cantidadEnviada = 3;
+}
