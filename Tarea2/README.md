@@ -8,8 +8,8 @@
 * Diego Saa  201973068-1
 
 ## Datos de conexión SSH
-* user: sd_user
-* password: Sd2022_2!
+* user: 
+* password: 
 
 ## Ejecución de Servidor
 
